@@ -766,7 +766,7 @@ case "$1" in
         bootloader_id="$(config_item GRUB_DISTRIBUTOR | tr A-Z a-z | \
                          cut -d' ' -f1)"
         case $bootloader_id in
-          kubuntu) bootloader_id=ubuntu ;;
+          zarya) bootloader_id=ubuntu ;;
           devuan) bootloader_id=debian ;;
         esac
 

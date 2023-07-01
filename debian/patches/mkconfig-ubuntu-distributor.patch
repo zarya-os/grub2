@@ -24,7 +24,7 @@ index f215e32..1603a75 100644
  else
 -  OS="${GRUB_DISTRIBUTOR} GNU/Linux"
 +  case ${GRUB_DISTRIBUTOR} in
-+    Ubuntu|Kubuntu)
++    Ubuntu|zarya)
 +      OS="${GRUB_DISTRIBUTOR}"
 +      ;;
 +    *)
