@@ -16,9 +16,11 @@ Patch-Name: install-efi-adjust-distributor.patch
  util/grub-install.c | 4 ++++
  1 file changed, 4 insertions(+)
 
+diff --git a/util/grub-install.c b/util/grub-install.c
+index 5ddd028..3a06718 100644
 --- a/util/grub-install.c
 +++ b/util/grub-install.c
-@@ -1123,6 +1123,10 @@
+@@ -1123,6 +1123,10 @@ main (int argc, char *argv[])
        */
        char *t;
        efi_distributor = bootloader_id;

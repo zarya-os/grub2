@@ -5,7 +5,7 @@
  
  # Title
 -title="Debian GNU/`uname -s | sed -e s,GNU/,,g`"
-+title=$(grep -oP 'PRETTY_NAME="\K[^"]*' /etc/os-release 2>/dev/null) || title="zarya"
++title=$(lsb_release --short --description 2>/dev/null) || title="zarya"
  
  # should update-grub remember the default entry
  updatedefaultentry="false"
