@@ -1,3 +1,9 @@
+grub2 (2.06-2zarya17) lunar; urgency=medium
+
+  * zarya: modify changes and patches for zarya
+
+ -- Muqtadir <muqtadir5555@gmail.com>  Sat, 02 Jul 2023 12:21:07 +0530
+
 grub2 (2.06-2zarya16) lunar; urgency=medium
 
   * zarya: modify changes and patches for zarya
